@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import com.example.bp2_pertemuan4.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    lateinit private var binding: ActivityMainBinding
+    lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
